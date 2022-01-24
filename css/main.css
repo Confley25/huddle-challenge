@@ -1,0 +1,103 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*---------------------------RESET-----------------------------------------*/
+
+
+
+#contenedor-p{
+	background-image: url(../images/bg-desktop.svg);
+	background-color: hsl(257, 40%, 49%);
+}
+
+#titulo{
+	font-family: 'Poppins', sans-serif;
+	color: rgb(255, 255, 255);
+	font-size: 2.5rem;
+	line-height: 3rem;
+}
+
+#parrafo{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+	color: rgb(255, 255, 255);
+
+}
+
+#boton{
+	font-family: 'Poppins', sans-serif;
+	color:hsl(257, 40%, 49%) ;
+	background-color:rgb(255, 255, 255);
+	border-color:rgb(255, 255, 255) ;
+	box-shadow: 0 6px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.16);
+	cursor: pointer;
+	transition: all ease-out 0.2s;
+}
+
+#boton:hover{
+	background-color: hsl(300, 69%, 71%);
+	color:rgb(255, 255, 255) ;
+	border-color: hsl(300, 69%, 71%);
+	transform: scale(1.05);
+}
+
+#imagen-red{
+	cursor: pointer;
+	transition: all ease-out 0.2s;
+}
+
+#imagen-red:hover{
+	transform: scale(1.05);
+}
+
+
+
+
+
